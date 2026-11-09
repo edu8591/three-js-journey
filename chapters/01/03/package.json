@@ -1,0 +1,19 @@
+{
+  "name": "ch01-03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "vite": "catalog:"
+  },
+  "dependencies": {
+    "three": "catalog:"
+  }
+}

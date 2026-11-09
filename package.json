@@ -1,0 +1,21 @@
+{
+  "name": "learn-threejs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^12.18.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "three": "catalog:",
+    "vite": "catalog:"
+  }
+}
