@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite --port 3000"
+    "dev": "vite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "vite": "catalog:"
+    "vite": "catalog:",
+    "vite-plugin-restart": "catalog:"
   },
   "dependencies": {
     "three": "catalog:"

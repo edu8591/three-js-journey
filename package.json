@@ -16,6 +16,7 @@
   "type": "module",
   "dependencies": {
     "three": "catalog:",
-    "vite": "catalog:"
+    "vite": "catalog:",
+    "vite-plugin-restart": "catalog:"
   }
 }
