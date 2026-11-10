@@ -1,6 +1,6 @@
-# learn-threejs
+# Learn THREE.js
 
-Three.js learning exercises, organized as a pnpm workspace. Each lesson in `chapters/<chapter>/<lesson>` is its own Vite project, named `ch<chapter>-<lesson>` (for example, `ch01-05`).
+My exercises from following the [Three.js Journey](https://threejs-journey.com/) course by Bruno Simon, organized as a pnpm workspace. Each lesson in `chapters/<chapter>/<lesson>` is its own Vite project, named `ch<chapter>-<lesson>` (for example, `ch01-05`).
 
 Dependency versions are kept in one place: the `catalog:` section of [pnpm-workspace.yaml](pnpm-workspace.yaml). Projects refer to them as `"catalog:"` in their `package.json`, so every project uses the same version.
 
