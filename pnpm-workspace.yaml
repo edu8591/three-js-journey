@@ -1,6 +1,7 @@
 packages:
   - "chapters/*/*"
 catalog:
+  gsap: ~3.12.7
   three: ^0.187.0
   vite: ^8.3.6
   vite-plugin-restart: "^0.4.2"

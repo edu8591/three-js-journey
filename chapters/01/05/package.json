@@ -9,10 +9,11 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "vite": "^catalog:",
+    "vite": "catalog:",
     "vite-plugin-restart": "catalog:"
   },
   "dependencies": {
+    "gsap": "catalog:",
     "three": "catalog:"
   }
 }

@@ -164,6 +164,9 @@ settings:
 
 catalogs:
   default:
+    gsap:
+      specifier: ~3.12.7
+      version: 3.12.7
     three:
       specifier: ^0.187.0
       version: 0.187.0
@@ -178,6 +181,9 @@ importers:
 
   .:
     dependencies:
+      gsap:
+        specifier: 'catalog:'
+        version: 3.12.7
       three:
         specifier: 'catalog:'
         version: 0.187.0
@@ -203,6 +209,22 @@ importers:
 
   chapters/01/04:
     dependencies:
+      three:
+        specifier: 'catalog:'
+        version: 0.187.0
+    devDependencies:
+      vite:
+        specifier: 'catalog:'
+        version: 8.3.6
+      vite-plugin-restart:
+        specifier: 'catalog:'
+        version: 0.4.2(vite@8.3.6)
+
+  chapters/01/05:
+    dependencies:
+      gsap:
+        specifier: 'catalog:'
+        version: 3.12.7
       three:
         specifier: 'catalog:'
         version: 0.187.0
@@ -343,6 +365,9 @@ packages:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+
+  gsap@3.12.7:
+    resolution: {integrity: sha512-V4GsyVamhmKefvcAKaoy0h6si0xX7ogwBoBSs2CTJwt7luW0oZzC0LhdkyuKV8PJAXr7Yaj8pMjCKD4GJ+eEMg==}
 
   is-number@7.0.0:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
@@ -581,6 +606,8 @@ snapshots:
 
   fsevents@2.3.3:
     optional: true
+
+  gsap@3.12.7: {}
 
   is-number@7.0.0: {}
 
