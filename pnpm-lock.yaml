@@ -249,6 +249,19 @@ importers:
         specifier: 'catalog:'
         version: 0.4.2(vite@8.3.6)
 
+  chapters/01/07:
+    dependencies:
+      three:
+        specifier: 'catalog:'
+        version: 0.187.0
+    devDependencies:
+      vite:
+        specifier: 'catalog:'
+        version: 8.3.6
+      vite-plugin-restart:
+        specifier: 'catalog:'
+        version: 0.4.2(vite@8.3.6)
+
 packages:
 
   '@oxc-project/types@0.156.0':
